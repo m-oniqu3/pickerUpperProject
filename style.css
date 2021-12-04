@@ -13,7 +13,7 @@
   --main-orange: #ff9505;
   --main-grey: #353531;
   --light-grey: #f4f4f4;
-
+  --black: #000;
   --white: #fff;
 
   --heading: "Montserrat", sans-serif;
@@ -27,6 +27,7 @@
 
 body {
   font-family: var(--content);
+  font-size: 0.9rem;
 }
 
 .background {
@@ -123,7 +124,6 @@ section {
 }
 
 .main-text {
-  font-size: 1rem;
   margin: 1.5rem 0;
 }
 
@@ -159,4 +159,78 @@ section {
   color: var(--main-orange);
   font-size: 1.5rem;
   font-weight: var(--fw-bolder);
+}
+
+/* Featured Services Section Styles */
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
+  overflow: hidden;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.card-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.card-text {
+  color: var(--main-orange);
+  font-size: 1.1rem;
+  font-weight: var(--fw-bolder);
+  text-align: center;
+  padding: 0.675rem 0;
+}
+
+.services .button {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+/* Join Section Styles*/
+
+.join,
+.sign-up {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.join-image,
+.sign-up-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.join > *,
+.sign-up > * {
+  text-align: center;
+}
+
+.join > .sub-title,
+.sign-up > .sub-title {
+  margin: 1rem 0;
+  color: var(--black);
+}
+
+hr {
+  border: 2px solid var(--light-grey);
+  margin: 1rem 0;
+}
+
+.join-two {
+  background-image: url(images/grocer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65vh;
 }
