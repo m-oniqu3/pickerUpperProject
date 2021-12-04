@@ -3,9 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* 
+
 :root {
-} */
+  --main-blue: #016fb9;
+  --main-orange: #ff9505;
+
+  --heading: "Montserrat", sans-serif;
+  --content: "Poppins", sans-serif;
+}
 
 .background {
   background-image: url("images/delivery.png");
