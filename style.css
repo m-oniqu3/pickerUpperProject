@@ -10,6 +10,7 @@
 
 :root {
   --main-blue: #016fb9;
+  --light-blue: rgba(6, 118, 192, 0.068);
   --main-orange: #ff9505;
   --main-grey: #353531;
   --light-grey: #f4f4f4;
@@ -27,7 +28,6 @@
 
 body {
   font-family: var(--content);
-  font-size: 1rem;
 }
 
 .background {
@@ -86,7 +86,7 @@ nav {
 
 .text {
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 1rem 0;
 }
 
@@ -125,6 +125,7 @@ section {
 
 p.main-text {
   margin: 1.5rem 0;
+  font-size: 0.9rem;
 }
 
 .about-image > img {
@@ -230,5 +231,22 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  height: 60vh;
+  height: 55vh;
+}
+
+/* App Section Styles */
+
+.blue {
+  background-color: var(--light-blue);
+}
+
+/* Review Section Styles */
+
+.review-card {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.bold {
+  font-weight: var(--fw-bold);
 }
