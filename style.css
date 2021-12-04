@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,11 @@
 
   --heading: "Montserrat", sans-serif;
   --content: "Poppins", sans-serif;
+
+  --fw-black: 900;
+  --fw-bolder: 700;
+  --fw-bold: 600;
+  --fw-normal: 400;
 }
 
 .background {
@@ -27,6 +34,8 @@
   width: 90%;
   margin: 0 auto;
 }
+
+/* Navigation */
 
 nav {
   padding: 1rem 0;
@@ -47,5 +56,43 @@ nav {
 }
 
 .fa-bars {
+  color: var(--main-orange);
+}
+
+/* Introduction */
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 5rem;
+}
+
+.heading {
+  font-family: var(--heading);
+  font-size: 3.5rem;
+  font-weight: var(--fw-black);
   color: var(--white);
+  margin: 2rem 0;
+  line-height: 1;
+}
+
+.text {
+  font-family: var(--content);
+  color: var(--white);
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.button {
+  margin: 1rem 0;
+}
+
+.btn {
+  background: var(--main-orange);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
 }
