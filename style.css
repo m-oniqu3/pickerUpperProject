@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
 :root {
   --main-blue: #016fb9;
   --main-orange: #ff9505;
+  --white: white;
 
   --heading: "Montserrat", sans-serif;
   --content: "Poppins", sans-serif;
@@ -43,5 +46,6 @@ nav {
   width: 100%;
 }
 
-/* .fa-bars {
-} */
+.fa-bars {
+  color: var(--white);
+}
