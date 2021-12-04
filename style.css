@@ -27,7 +27,7 @@
 
 body {
   font-family: var(--content);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .background {
@@ -137,7 +137,6 @@ p.main-text {
 .benefits {
   text-align: center;
   margin: 3rem auto;
-  width: 75%;
 }
 
 .circle {
@@ -199,7 +198,6 @@ p.main-text {
 
 .join,
 .sign-up {
-  width: 70%;
   margin: 2rem auto;
 }
 
@@ -232,5 +230,5 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  height: 50vh;
+  height: 60vh;
 }
